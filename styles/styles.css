@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans.woff2") format("woff2");
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #242424;
+    background-color: #FFFFFF;
+}
+
+/* Header */
+.page-header {
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.navigation {
+    font-family: "PT Sans", sans-serif;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    }
+
+.navigation-link {
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
+color: #000000;
+text-decoration: none;
+}
+
+/* Main logo*/
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.main-logo {
+    background-image: url("../img/main-background.jpg");
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 485px;
+    position: relative;
+}
+
+.hide {
+    position: relative;
+bottom: -35px;
+}
+
+.main-index{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    /* Description city */
+.city-descriptions {
+    width: 400px;
+    height: 384px;
+    padding-top: 47px;
+    text-align: center;
+    background-color: #81B3D2;
+}
+
+
+
+.content-description {
+    font-family: "PT Sans" sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content-text {
+    font-family: "PT Sans" sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 22px;
+    text-align: center; 
+    
+}
+
+.real-place {
+    
+    font-family: "PT Sans", sans-serif;
+    color: #FFFFFF;
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.white-number {
+    font-family: "PT Sans" sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.real-text{
+    font-family: "PT Sans" sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 18px;
+    text-align: center; 
+}
+
+/* Service */
+
+.service {
+    font-family: "PT Sans" sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    font-size: 24px;
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.service-text {
+    font-family: "PT Sans" sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 18px;
+    text-align: center; 
+}
+
+/* Bridge description */
+
+.bridge-description {
+
+    width: 400px;
+    height: 384px;
+    padding-top: 47px;
+    text-align: center;
+    background-color: #81B3D2;
+    
+}
+.devil-bridge {
+    
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* Advantage */
+
+.number {
+    color: #000000;
+}
+
+.advantage-head {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    color: #000000;
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.advantage-text {
+    font-family: "PT Sans" sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 18px;
+    text-align: center; 
+}
+
+/* Footer */
+
+.subscription {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/background-footer.jpg");
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 411px;
+}
+
+
+.search-head {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    color: #000000;
+    line-height: 36px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.search-text {
+    font-family: "PT Sans" sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.button-search {
+    font-family: "PT Sans" sans-serif;
+    color: #FFFFFF;
+    background: #756257;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    width: 575px;
+    height: 60px;
+}
+
+.sub-head {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    line-height: 36px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.sub-text {
+    font-family: "PT Sans" sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.sub-button {
+font-family: "PT Sans" sans-serif;
+font-style: normal;
+color:#FFFFFF;
+font-size: 20px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+background:#83B3D3;
+width: 200px;
+height: 61px;
+border-radius: 0px 10px 10px 0px;
+}
+
+.footer-contacts {
+    font-family: "PT Sans" sans-serif;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/* Catalog */
+
+.inner-header {
+    background-image: url("../img/catalog-background.jpg");
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 408px;
+    position: relative;
+}
+
+.button-details {
+    font-family: "PT Sans", sans-serif;
+    color: #FFFFFF;
+    background: #756257;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center; 
+    text-transform: uppercase;
+    border-radius: 4px;
+    position: absolute;
+    width: 151px;
+    height: 18px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    text-decoration: none;
+}
+
+.button-wont {
+    font-family: "PT Sans", sans-serif;
+    color: #FFFFFF;
+    background: #756257;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center; 
+    text-transform: uppercase;
+    border-radius: 4px;
+    position: absolute;
+    width: 160px;
+    height: 37px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    text-decoration: none;
+}
