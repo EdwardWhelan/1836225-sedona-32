@@ -6,7 +6,7 @@
   <title>HTML Academy: Седона</title>
   <link rel="icon" href="#">
   <link rel="icon" type="image/png" sizes="32x32" href="#">
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -14,19 +14,21 @@
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item list">
-          <a class="navigation-link" href="/index.html">Главная</a>
+          <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item list">
           <a class="navigation-link" href="#">О Седоне</a>
         </li>
-        <li class="navigation-item list">
-          <a class="navigation-link" href="#">Гостиницы</a>
-        </li>
       </ul>
-      <a class="navigation-logo" href="index.html">
-        <img class="page-header-logo" src="img/sedona.svg" alt="Седона логотип">
-      </a>
-      <ul class="navigation-list navigation-user">
+        <div class="navigation-item list">
+          <a class="navigation-link" href="#">Гостиницы</a>
+        </div>
+      <ul class="navigation-user">
+        <li class="navigation-item list">
+          <a class="nanavigation-logo" href="index.html">
+            <img class="page-header-logo" src="img/sedona.png" width="138" height="70" alt="Седона логотип.">
+          </a>
+        </li>
         <li class="navigation-item list">
           <a class="navigation-link" href="#">
             <img src="/img/search.svg" alt="Поиск.">
@@ -38,12 +40,11 @@
           </a>
         </li>
         <li class="navigation-item list">
-          <a class="button-wont" href="#">Хочу сюда!</a>
+          <a class="button-wont">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
   </header>
-
   <main class="main-catalog">
     <div class="all-header">
       <header class="inner-header">
@@ -67,21 +68,21 @@
               <ul class="filter-group-list">
                 <li class="filte-group-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="checkbox" name="pool" checked>
+                    <input class="control-input" type="checkbox" name="pool" checked>
                     <span class="control-mark"></span>
                     <span class="control-label">Бассейн</span>
                   </label>
                 </li>
                 <li class="filte-group-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="checkbox" name="parking" checked>
+                    <input class="control-input" type="checkbox" name="parking" checked>
                     <span class="control-mark"></span>
                     <span class="control-label">Парковка</span>
                   </label>
                 </li>
                 <li class="filte-group-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="checkbox" name="wi-fi">
+                    <input class="control-input" type="checkbox" name="wi-fi">
                     <span class="control-mark"></span>
                     <span class="control-label">Wi-Fi</span>
                   </label>
@@ -93,21 +94,21 @@
               <ul class="filter-group-list">
                 <li class="filte-group-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="radio" name="product-group" checked>
+                    <input class="control-input" type="radio" name="product-group" checked>
                     <span class="control-mark"></span>
                     <span class="control-label">Гостиница</span>
                   </label>
                 </li>
                 <li class="filte-group-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="radio" name="product-group">
+                    <input class="control-input" type="radio" name="product-group">
                     <span class="control-mark"></span>
                     <span class="control-label">Мотель</span>
                   </label>
                 </li>
                 <li class="filte-group-item">
                   <label class="control">
-                    <input class="visually-hidden control-input" type="radio" name="product-group">
+                    <input class="control-input" type="radio" name="product-group">
                     <span class="control-mark"></span>
                     <span class="control-label">Апартаменты</span>
                   </label>
@@ -147,13 +148,13 @@
           </select>
           <button class="visually-hidden" type="submit">Отсортировать гостиницы</button>
         </form>
-        <a href="#" class="button button-cadrs">
+        <a href="#" class="button-cadrs">
           <img src="img/tile.svg" alt="Показать товар карточками.">
         </a>
-        <a href="#" class="button button-slide">
+        <a href="#" class="button-cadrs">
           <img src="img/slideshow.svg" alt="Показать товар слайдами.">
         </a>
-        <a href="#" class="button button-list">
+        <a href="#" class="button-cadrs">
           <img src="img/list.svg" alt="Показать товар списком.">
         </a>
       </div>
@@ -232,7 +233,7 @@
         <form class="sorting-card">
           <p class="page-card-sorting">Гостиниц на странице:</p>
           <label class="visually-hidden" for="sorting-card">Отображение гостиниц</label>
-          <select class="select-control" id="sorting-card" name="sorting">
+          <select class="sorting-control" id="sorting-card" name="sorting">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -243,9 +244,9 @@
     </section>
   </main>
   <footer class="catalog-footer">
-    <section class="sub-inner">
-      <h2 class="sub-folov">Подпишитесь на рассылку</h2>
-      <p class="sub-info">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
+    <section class="subscription sub-inner">
+      <h2 class="sub-folov sub-head">Подпишитесь на рассылку</h2>
+      <p class="sub-info sub-text">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
       <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
         <label></label>
         <input type="text" name="subscription-date" placeholder="Ваш e-mail">
