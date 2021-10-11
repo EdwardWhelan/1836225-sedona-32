@@ -19,33 +19,32 @@
         <li class="navigation-item list">
           <a class="navigation-link" href="#">О Седоне</a>
         </li>
-      </ul>
-        <div class="navigation-item list">
+        <li class="navigation-item list">
           <a class="navigation-link" href="#">Гостиницы</a>
-        </div>
+        </li>
+      </ul>
+      <a class="navigation-logo" href="index.html">
+        <img class="page-header-logo" src="img/sedona.png" width="138" height="70" alt="Седона логотип.">
+      </a>
       <ul class="navigation-user">
         <li class="navigation-item list">
-          <a class="nanavigation-logo" href="index.html">
-            <img class="page-header-logo" src="img/sedona.png" width="138" height="70" alt="Седона логотип.">
+          <a class="navigation-link" href="#">
+            <img src="img/search.svg" alt="Поиск.">
           </a>
         </li>
         <li class="navigation-item list">
           <a class="navigation-link" href="#">
-            <img src="/img/search.svg" alt="Поиск.">
+            <img src="img/heart.svg" alt="Избранное.">
           </a>
         </li>
         <li class="navigation-item list">
-          <a class="navigation-link" href="#">
-            <img src="/img/heart.svg" alt="Избранное.">
-          </a>
-        </li>
-        <li class="navigation-item list">
-          <a class="button-wont">Хочу сюда!</a>
+          <button class="button-wont">Хочу сюда!</button>
         </li>
       </ul>
     </nav>
   </header>
-  <main class="main-catalog">
+  <main class="main-container main-catalog">
+    <div class="page-container">
     <div class="all-header">
       <header class="inner-header">
         <h1 class="inner-title">Гостиницы Седоны</h1>
@@ -64,7 +63,7 @@
           <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
           <form class="filter-catalog" action="https://echo.htmlacademy.ru/" method="get">
             <fieldset class="filter-group">
-              <legend class="filter-title">Инфраструктура:</legend>
+              <legend class="filter-structure">Инфраструктура:</legend>
               <ul class="filter-group-list">
                 <li class="filte-group-item">
                   <label class="control">
@@ -241,6 +240,7 @@
           <button class="visually-hidden" type="submit">Выдача карточек</button>
         </form>
     </section>
+  </div>
   </main>
   <footer class="catalog-footer">
     <section class="subscription sub-inner">
@@ -252,6 +252,7 @@
         <button class="sub-button" type="submit">Подписаться</button>
       </form>
     </section>
+    <div class="footer-container">
     <section class="footer-social">
       <h2 class="visually-hidden">Блок соцсетей</h2>
       <ul class="footer-social-list">
@@ -274,6 +275,7 @@
       <a class="footer-contacts" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a class="academy-link" href="https://htmlacademy.ru/"><img src="/img/htmlacademy.svg" alt="Логотип Академии"></a>
     </section>
+    </div>
   </footer>
 </body>
 
