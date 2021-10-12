@@ -65,24 +65,30 @@ body {
 }
 
 .navigation-list {
+  width: calc(100% / 2 - 138px);
   margin: 0;
   padding: 0;
   display: flex;
   align-self: center;
   list-style: none;
-  margin-bottom: 10px;
+  align-items: center;
+  height: 65px;
 }
 
 .navigation-main {
   margin-left: 71px;
+  margin-bottom: 5px;
 }
 
 .navigation-item {
   margin-left: 33px;
+  margin-bottom: 5px;
 }
 
 .navigation-user {
+  width: calc(100% / 2 - 138px);
   display: flex;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
   align-self: center;
@@ -91,7 +97,6 @@ body {
 
 .navigation-wont {
   margin-right: 72px;
-  margin-bottom: 5px;
 }
 
 .navigation-heart {
@@ -103,11 +108,11 @@ body {
   margin-top: 7px;
 }
 
-.page-header-logo{
+.navigation-logo {
+  height: 65px;
   display: flex;
   position: relative;
   z-index: 1;
-  margin-right: 55px;
 }
 
 .navigation-link {
@@ -143,8 +148,7 @@ body {
   background-repeat: no-repeat;
   max-width: 1200px;
   height: 485px;
-  position: relative;
-  bottom: 5px;
+
 }
 
 /* main description */
@@ -181,7 +185,7 @@ padding-right: 373px;
 .content-text {
   margin: 0;
   padding-left: 0px;
-  padding-top: 33px;
+  padding-top: 35px;
   font-size: 22px;
   line-height: 36px;
   font-weight: 400;
@@ -190,6 +194,7 @@ padding-right: 373px;
 /* city description */
 
 .city {
+
   margin: 0;
   padding: 0;
   display: flex;
@@ -214,18 +219,18 @@ padding-right: 373px;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-top: 97px;
+  padding-top: 96px;
   margin: 0;
 }
 
 .number {
   margin: 0;
-  padding-top: 29px;
+  padding-top: 30px;
 }
 
 .real-text {
   margin: 0;
-  padding-top: 30px;
+  padding-top: 31px;
 }
 
 /* all services*/
@@ -346,7 +351,7 @@ height: 408px;
 .sorting-filter {
   display: flex;
   width: 1057px;
-  height: 408;
+  height: 408px;
   margin: 0 auto;
   border-bottom: 1px solid #E5E5E5;
 }
