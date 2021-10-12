@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,12 +10,12 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
 html {
-  background-color: #E5E5E5;
+  background-color: #F2F2F2;
   height: 100%;
 }
 
@@ -61,20 +61,53 @@ body {
 
 .navigation {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .navigation-list {
-  padding: 0;
   margin: 0;
-  width: 310px;
+  padding: 0;
+  display: flex;
+  align-self: center;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.navigation-main {
+  margin-left: 71px;
+}
+
+.navigation-item {
+  margin-left: 33px;
 }
 
 .navigation-user {
-  max-width: 280px;
-  margin-left: auto;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  list-style: none;
+}
+
+.navigation-wont {
+  margin-right: 72px;
+  margin-bottom: 5px;
+}
+
+.navigation-heart {
+  margin-right: 20px;
+}
+
+.navigation-search {
+  margin-right: 21px;
+  margin-top: 7px;
+}
+
+.page-header-logo{
+  display: flex;
+  position: relative;
+  z-index: 1;
+  margin-right: 55px;
 }
 
 .navigation-link {
@@ -87,6 +120,7 @@ body {
 
 
 .button-wont {
+  font-family: "PT Sans", sans-serif;
   border: none;
   width: 160px;
   height: 37px;
@@ -95,6 +129,7 @@ body {
   color: #FFFFFF;
   border-radius: 4px;
   font-size: 16px;
+  line-height: 21px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -108,21 +143,23 @@ body {
   background-repeat: no-repeat;
   max-width: 1200px;
   height: 485px;
+  position: relative;
+  bottom: 5px;
 }
 
 /* main description */
 
 .logo {
 padding-top: 51px;
-padding-left: 372px;
-padding-right: 372px;
+padding-left: 371px;
+padding-right: 373px;
 }
 
 .hiden-logo {
   max-width: 1200px;
   height: 57px;
   position: relative;
-  bottom: -22px;
+  bottom: -21px;
 }
 
 .main-description {
@@ -134,7 +171,7 @@ padding-right: 372px;
 .content-description {
   color: #000000;
   margin: 0;
-  padding-top: 63px;
+  padding-top: 61px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -143,8 +180,8 @@ padding-right: 372px;
 
 .content-text {
   margin: 0;
-  padding-bottom: 79px;
-  padding-top: 35px;
+  padding-left: 0px;
+  padding-top: 33px;
   font-size: 22px;
   line-height: 36px;
   font-weight: 400;
@@ -159,11 +196,11 @@ padding-right: 372px;
   width: 1200px;
 }
 
-
 .city-photo {
   width: 800px;
   height: 384px;
 }
+
 .city-descriptions {
   color: #FFFFFF;
   text-align: center;
@@ -177,22 +214,20 @@ padding-right: 372px;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-top: 98px;
+  padding-top: 97px;
   margin: 0;
 }
 
 .number {
   margin: 0;
-  padding-bottom: 26px;
-  padding-top: 25px;
+  padding-top: 29px;
 }
 
 .real-text {
   margin: 0;
-  padding-bottom: 77px;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-top: 30px;
 }
+
 /* all services*/
 
 .all-services{
