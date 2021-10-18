@@ -67,18 +67,18 @@
     </section>
     <section class="all-services">
       <ul class="service-list">
-        <li class="advantage-item block list">
-          <img src="img/home-icon.svg" width="75" height="72" alt="Иконка дома.">
+        <li class="advantage-item service-home">
+          <img class="home-img" src="img/home-icon.svg" width="75" height="72" alt="Иконка дома.">
           <h2 class="block-description">Жильё</h2>
           <p class="service-text">Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!</p>
         </li>
-        <li class="advantage-item service-food list">
-          <img src="img/food-icon.svg" width="74" height="70" alt="Иконка еды.">
+        <li class="advantage-item service-food">
+          <img class="food-img" src="img/food-icon.svg" width="74" height="70" alt="Иконка еды.">
           <h2 class="block-description">Еда</h2>
           <p class="service-text">Всегда заказывайте<br>топовый фирменный бургер,<br>вы не разочаруетесь!</p>
         </li>
-        <li class="advantage-item block list">
-          <img src="img/gift-icon.svg" width="64" height="76" alt="Иконка сувениров.">
+        <li class="advantage-item service-gift">
+          <img class="gift-img" src="img/gift-icon.svg" width="64" height="76" alt="Иконка сувениров.">
           <h2 class="block-description">Сувениры</h2>
           <p class="service-text">Не только китайского,<br>но и настоящего местного<br>производства!</p>
         </li>
@@ -95,34 +95,37 @@
     </section>
     <section class="advantage-section all-services">
       <ul class="advantage-list">
-        <li class="advantage-item block list">
-          <h2 class="block-description">Небольшая<br>площадь</h2>
-          <p class="number">— №3 —</p>
+        <li class="advantage-item">
+          <h2 class="benefits-description">Небольшая<br>площадь</h2>
+          <p class="benefits-number">— №3 —</p>
           <p class="advantage-text">Все достопримечательности<br>находятся очень близко</p>
         </li>
-        <li class="advantage-item advantage-block list">
-          <h2 class="block-description">Красивая<br>дорога</h2>
-          <p class="number">— №4 —</p>
+        <li class="advantage-item advantage-block">
+          <h2 class="benefits-description">Красивая<br>дорога</h2>
+          <p class="benefits-number">— №4 —</p>
           <p class="advantage-text">Ехать в Седону из Лас-Вегаса<br>совсем не скучно!</p>
         </li>
-        <li class="advantage-item block list">
-          <h2 class="block-description">Мало<br>туристов</h2>
-          <p class="number">— №5 —</p>
+        <li class="advantage-item">
+          <h2 class="benefits-description">Мало<br>туристов</h2>
+          <p class="benefits-number">— №5 —</p>
           <p class="advantage-text">Большинство едет в Гранд<br>Каньон и толпится там</p>
         </li>
       </ul>
     </section>
     <section class="search-hotel">
       <h2 class="search-head">Заинтересовались?</h2>
-      <p class="search-text">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в
+      <p class="search-text">
+        Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в
         Седоне
       </p>
+      <div class="button-hotel">
       <button class="button-search" type="submit">ПОИСК ГОСТИНИЦЫ В седоне</button>
+      </div>
     </section>
   </div>
   </main>
   <footer class="page-footer">
-    <section class="subscription sub-inner">
+    <section class="subscription">
       <h2 class="sub-head">Подпишитесь на рассылку</h2>
       <p class="sub-text">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
       <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -131,28 +134,29 @@
       </form>
     </section>
     <div class="footer-container">
-    <section class="footer-social">
-      <h2 class="visually-hidden">Блок соцсетей</h2>
-      <ul class="footer-social-list">
-        <li class="footer-social-item list">
-          <a class="button-twitter" href="https://twitter.com/htmlacademy_ru">
-            <img src="img/twitter.svg" alt="Твиттер.">
-          </a>
-        </li>
-        <li class="footer-social-item list">
-          <a class="button-facebook" href="https://www.facebook.com/htmlacademy">
-            <img src="img/facebook.svg" alt="Фейсбук.">
-          </a>
-        </li>
-        <li class="footer-social-item list">
-          <a class="button-tube" href="https://www.youtube.com/c/HTMLAcademyRUS">
-            <img src="img/youtube.svg" alt="Ютуб.">
-          </a>
-        </li>
-      </ul>
-      <a class="footer-contacts" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a class="academy-link" href="https://htmlacademy.ru/"><img src="img/htmlacademy.svg" alt="Логотип Академии"></a>
-    </section>
+      <section class="footer-social">
+        <h2 class="visually-hidden">Блок соцсетей</h2>
+        <ul class="footer-social-list">
+          <li class="footer-social-item list">
+            <a class="button-twitter" href="https://twitter.com/htmlacademy_ru">
+              <img src="/img/twitter.svg" alt="Твиттер.">
+            </a>
+          </li>
+          <li class="footer-social-item list">
+            <a class="button-facebook" href="https://www.facebook.com/htmlacademy">
+              <img src="img/facebook.svg" alt="Фейсбук.">
+            </a>
+          </li>
+          <li class="footer-social-item list">
+            <a class="button-tube" href="https://www.youtube.com/c/HTMLAcademyRUS">
+              <img src="img/youtube.svg" alt="Ютуб.">
+            </a>
+          </li>
+        </ul>
+        <a class="footer-contacts" href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <a class="academy-link" href="https://htmlacademy.ru/"><img src="/img/htmlacademy.svg" alt="Логотип Академии"></a>
+      </section>
+      </div>
     </div>
   </footer>
 </body>
