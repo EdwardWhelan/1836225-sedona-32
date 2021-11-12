@@ -471,7 +471,7 @@ body {
 
 .filter-group-item {
   padding-bottom: 13px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -480,7 +480,7 @@ body {
 .filter-title {
   padding: 0;
   padding-top: 44px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -1450,7 +1450,7 @@ body {
   outline: none;
 }
 
-input, .subscription-date {
+input[name="subscription-date"] {
   font-family: "PT Sans", sans-serif;
   padding-left: 21px;
   font-size: 18px;
