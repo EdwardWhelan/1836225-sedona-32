@@ -69,6 +69,7 @@ body {
 }
 
 .navigation-list {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -79,12 +80,13 @@ body {
   align-self: center;
   list-style: none;
   align-items: center;
-  min-height: 65px;
+  min-height: 50px;
 }
 
 .navigation-item {
+  padding-top: 18px;
   padding-left: 9px;
-  padding-bottom: 2px;
+  padding-bottom: 21px;
 }
 
 .navigation-user {
@@ -121,6 +123,7 @@ body {
 }
 
 .navigation-link {
+  position: relative;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -131,7 +134,7 @@ body {
 
 .current-page::before {
   position: absolute;
-  bottom: -1px;
+  top: 52px;
   padding-right: 70px;
   height: 2px;
   background-color: #756257;
@@ -141,7 +144,7 @@ body {
 
 .current-catalog::before {
   position: absolute;
-  bottom: -1px;
+  top: 51px;
   padding-right: 93px;
   border-bottom: 2px solid #756257;
   border-radius: 0px;
@@ -424,7 +427,7 @@ body {
 .all-header {
   display: block;
   background-image: url("../img/catalog-background.jpg");
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-color: #4a7699;
   color: #FFFFFF;
   min-width: 1200px;
@@ -616,6 +619,7 @@ body {
 }
 
 .range-bar {
+  width: 227px;
   position: absolute;
   height: 4px;
   background-color: #FFFFFF;
@@ -790,7 +794,6 @@ body {
   opacity: 0.3;
 }
 
-
 .breadcrumbs-link {
   color: #FFFFFF;
   text-decoration: none;
@@ -847,7 +850,6 @@ body {
   align-self:flex-end;
   margin-left: auto;
 }
-
 
 .hotel-card-text {
   margin: 0;
@@ -954,7 +956,6 @@ body {
 
 .cards-filter {
   display: flex;
-
 }
 
 .card-grid-toggle {
@@ -1067,7 +1068,6 @@ body {
 .button-block {
   padding-top: 32px;
   padding-left: 17px;
-
 }
 
 .button-search {
@@ -1106,7 +1106,6 @@ body {
 
 /* hotel list*/
 
-
 .button-favorites {
   display: inline-block;
   font-family: "PT Sans", sans-serif;
@@ -1127,7 +1126,6 @@ body {
   cursor: pointer;
   border: 1px solid transparent;
 }
-
 
 .button-favorites:hover {
   background: #68A2CA;
@@ -1663,7 +1661,6 @@ input[type=text]:invalid {
   padding: 0;
   display: flex;
   flex-direction: column;
-
 }
 
 .hotel-popover {
@@ -1808,7 +1805,6 @@ input[type=text]:invalid {
 .modal-close-button:focus-visible .close-svg {
   background-color: #E6E6E6;
   outline: 3px solid #83B3D3;
-
 }
 
 .modal-close-button:active .close-svg {
@@ -1974,7 +1970,7 @@ input[type="text"] {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-   -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 .quantity-person input[value] {
@@ -2090,7 +2086,6 @@ input::-webkit-inner-spin-button {
   outline: 2px solid #756257;
 }
 
-
 .tooltip::after {
   position: absolute;
   content: "";
@@ -2135,7 +2130,6 @@ input::-webkit-inner-spin-button {
 .form-label-icon button:hover + span {
   visibility: visible;
 }
-
 
 .form-label-icon span:after {
   content: "";
